@@ -1041,7 +1041,7 @@ La publicidad será bloqueada mediante PiHole, por lo que si además configuramo
         - WG_DEFAULT_DNS=10.8.1.3
         - WG_PERSISTENT_KEEPALIVE=25
         # - WG_MTU=1420
-        - WG_ALLOWED_IPS=192.168.1.0/24, 0.0.0.0/1, 128.0.0.0/1
+        - WG_ALLOWED_IPS=192.168.1.0/24, 10.8.0.0/16
         image: ghcr.io/wg-easy/wg-easy
         container_name: wg-easy
         volumes:
